@@ -27,4 +27,4 @@ jobs:
         run: npm install
 
       - name: Run Cypress tests
-        run: npm run cypress:run  # This should be the command to run your Cypress tests
+        run: npx cypress run
