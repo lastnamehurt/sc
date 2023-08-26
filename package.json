@@ -1,0 +1,19 @@
+{
+  "name": "scplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "cy:run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lastnamehurt/sc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lastnamehurt/sc/issues"
+  },
+  "homepage": "https://github.com/lastnamehurt/sc#readme"
+}
