@@ -11,7 +11,7 @@ on:
       - main  # Adjust this to the name of your default branch if it's different
 
 jobs:
-  cypress-run:
+  play-somn-bout-a-nerd:
     runs-on: ubuntu-latest
 
     steps:
