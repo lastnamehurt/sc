@@ -1,4 +1,4 @@
-describe('template spec', () => {
+describe('soundcloud player spec', () => {
   it('plays all songs for 60 seconds each', () => {
     cy.visit('https://soundcloud.com/nativeofva/sets/come-see-bout-a-nerd');
 
