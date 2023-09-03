@@ -1,14 +1,14 @@
 name: Run Cypress Tests
 
-on:
-  schedule:
+# on:
+  # schedule:
     # * is a wildcard that matches any value
     # This will run every 20 minutes
-    - cron: '*/20 * * * *'
+    # - cron: '*/20 * * * *'
   
-  push:
-    branches:
-      - main  # Adjust this to the name of your default branch if it's different
+  # push:
+    # branches:
+      # - main  # Adjust this to the name of your default branch if it's different
 
 jobs:
   play-somn-bout-a-nerd:
