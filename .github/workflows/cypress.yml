@@ -1,14 +1,11 @@
 name: Run Cypress Tests
 
-# on:
-  # schedule:
-    # * is a wildcard that matches any value
-    # This will run every 20 minutes
-    # - cron: '*/20 * * * *'
-  
-  # push:
-    # branches:
-      # - main  # Adjust this to the name of your default branch if it's different
+on:
+  schedule:
+    - cron: '*/20 * * * *'
+  push:
+    branches:
+      - main
 
 jobs:
   play-somn-bout-a-nerd:
@@ -21,7 +18,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'  # Use the version of Node.js that you need
+          node-version: '14'
 
       - name: Install dependencies
         run: npm install
